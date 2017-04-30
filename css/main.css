@@ -1,0 +1,29 @@
+body {
+	font-family: 'montserrat';
+	margin: 0;
+}
+
+.container {
+	max-width: 800px;
+}
+
+.eminem {
+	text-align: center;
+}
+
+#slim {
+	margin: 20px;
+	max-width: 80vw;
+}
+
+#slimSays {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+
+#slimfoot {
+	background-color: #fff;
+	color: #4c4c4c;
+}
