@@ -19,7 +19,8 @@ $(document).ready(function(){
 			if(today > nov14a && today < nov14z){
     			// True if today is 14 Nov
 	    		var hb = $('#slimSays');
-	    		hb.text("Happy Birthday!");
+	    		hb.text("Happy Birthday homie!");
+	    		hb.append('<iframe width="560" height="315" src="https://www.youtube.com/embed/k2-96uc-qrs" frameborder="0" allowfullscreen></iframe>');
 
 			} else {
 			
