@@ -11,7 +11,20 @@ $(document).ready(function(){
 });
 		//Randomly assign a piece of advice and display it alongside Slim
 		$(function () {
-		    var adviceList = [
+
+			var today = new Date();
+			var nov14a = new Date("2017-11-14 0:00:00");
+			var nov14z = new Date("2017-11-14 23:59:59")
+
+			if(today > nov14a && today < nov14z){
+    			// True if today is 14 Nov
+	    		var hb = $('#slimSays');
+	    		hb.text("Happy Birthday!");
+
+			} else {
+			
+    			// Today is not 14th Nov
+			var adviceList = [
 		    "Wow, what the fuck happened last night, where am I? Man fuck am I hungover and god damn I got a headache. Oh well, nothing a few cookies can't fix!",
 		    "The only thing I love more than rap is cookies. I love eating cookies.",
 		    "We 'll walk this road together, through the storm. Whatever weather, cold or warm.", 
@@ -30,7 +43,11 @@ $(document).ready(function(){
 		      advice.text(adviceList[adviceId]);
 		    });
 
+		}
+
 		});
+
+
 
 		
 
